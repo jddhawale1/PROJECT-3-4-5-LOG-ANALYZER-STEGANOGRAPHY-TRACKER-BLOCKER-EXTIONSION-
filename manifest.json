@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Tracker Blocker",
+  "version": "1.0",
+  "permissions": [
+    "declarativeNetRequest",
+    "storage"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
